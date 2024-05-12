@@ -1,6 +1,6 @@
 
 tz = "America/Los_Angeles"
-temps_file = '~/Downloads/cbt-kalvin.csv'
+temps_file = '~/Downloads/core_export.csv'
 raw_temps = readtable(temps_file, setvartype(detectImportOptions(temps_file), {'Var1'}, 'uint64'))
 
 period_range_start = hours(24-1.5)
