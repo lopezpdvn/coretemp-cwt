@@ -1,6 +1,13 @@
 # coretemp-cwt
 Circadian rhythm nadirs inference using continuous wave transforms on non invasive core body temperature. Allows visualization and also outputs actual minimum temperature times for each day. Code is messy (was hacked together for personal use and then published w/o modification).
 
+## Installation
+
+1. MATLAB
+1. Signal processing toolbox
+1. Wavelet toolbox
+1. Curve fitting toolbox
+
 ## Usage
 
 The package is composed of two scripts:
